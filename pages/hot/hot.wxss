@@ -1,0 +1,142 @@
+/* navList样式 */
+.header {
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+
+.list {
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid blue; */
+}
+
+.v-swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.s-item {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  line-height: 70rpx;
+  /* border: 1px solid red; */
+}
+
+.search {
+  text-align: center;
+  margin-top: 15rpx;
+  padding-left: 35rpx;
+  border-left: 2px solid #ccc;
+}
+/* hot b-container样式 */
+.page_hot {
+  width: 100%;
+  height:100%;
+  background: white;
+}
+
+.b-container {
+  width: 90%;
+  height: 500rpx;
+  /* margin: 10rpx auto;  */
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid transparent;
+  border-bottom: 2px solid #ccc;
+  border-radius: 20px;
+}
+
+.b-bg {
+  width: 100%;
+  height: 330rpx;
+  position: relative;
+}
+
+.b-bg image{
+  width: 100%;
+  height: 330rpx;
+  /* border-radius: 20px; */
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+
+.b-tag {
+  height: 70rpx;
+  bottom: 10rpx; 
+  right: 10rpx;
+  font-size: 30rpx;
+  color: white;
+  position: absolute;
+}
+
+.tag-img {
+  float: left;
+  padding-top: 20rpx;
+}
+
+.tag-img image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 5rpx;
+  margin-right: 10rpx;
+  border-top-left-radius: 0rpx;
+  border-top-right-radius: 0rpx;
+}
+
+.tag-text {
+  float: left;
+  line-height: 70rpx;
+}
+
+.b-info {
+  padding: 0 40rpx;
+}
+
+.b-name {
+  width:100%;
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+  font-size: 45rpx;
+  font-weight: 200;
+}
+
+.b-all {
+  height: 45rpx;
+  line-height: 45rpx;
+  color: grey;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+
+.b-aut {
+  flex: 3;
+}
+
+.b-like,.b-look{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.b-like image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 8rpx;
+}
+
+.b-look image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.b-like .img,.b-look .img {
+  margin-right: 10rpx;
+}

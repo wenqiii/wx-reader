@@ -1,0 +1,39 @@
+<import src="../common/navList.wxml"/>
+<view class="page_hot">
+  <template is="navList" />
+  <block wx:for="{{hot}}" wx:ky="{{item.book.name}}">
+    <navigator url="../details/details?id={{item.id}}">
+      <view class="b-container">
+        <view class="b-bg">
+          <image src="{{item.book.bgimg}}" />
+          <view class="b-tag">
+            <view class="tag-img">
+              <image src="../img/tag.png"></image>
+            </view>
+            <view class="tag-text">
+              {{item.tag}}
+            </view>
+          </view>
+        </view>
+        <view class="b-info">
+          <view class="b-name">{{item.book.name}}</view>
+          <view class="b-all">
+            <view class="b-aut">By: {{item.author}}</view>
+            <view class="b-like">
+              <view class="img">
+                <image src="../img/like.png"></image>
+              </view>
+              <view class="text">{{item.beLiked}}</view>
+            </view>
+            <view class="b-look">
+              <view class="img">
+                  <image src="../img/look.png"></image>
+                </view>
+                <view class="text">{{item.beLooked}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+  </block>
+</view>

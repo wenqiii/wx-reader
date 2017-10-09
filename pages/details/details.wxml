@@ -1,0 +1,63 @@
+<view class="page_detail">
+  <view class="d_bg">
+    <image src="../img/1.jpg"></image>
+  </view>
+  <view class="d_container">
+    <view class="d_tag">
+      <view class="tag-img">
+        <image src="../img/tag.png"></image>
+      </view>
+      <view class="tag-text">
+        {{detail.tag}}
+      </view>
+    </view>
+    <view class="d_header">
+      <view class="book-name">{{detail.book.name}}</view>
+      <view class="d_detail">
+        <view class="d_author">By:{{detail.author}}</view>
+        <view class="d_beLooked">
+          <view class="look-img">
+            <image src="../img/look.png"></image>
+          </view>
+          <view class="look-text">
+            {{detail.beLooked}}
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="d_content">
+      <text>{{detail.content}}</text>
+    </view>
+    <view class="d_share">
+      <view class="share-img">
+        <image src="../img/code.png"></image>
+      </view>
+      <view class="share-text">
+        邀请朋友一起读故事吧
+      </view>
+    </view>
+  </view>
+  <view class="d_bottom-bar">
+    <view class="bottom-bar">
+      <view class="bottom-bar-item like">
+        <view class="pic"><image src="../img/like.png" /></view>
+        <view class="text">{{detail.beLiked}}</view>
+      </view>
+      <view class="bottom-bar-item collect">
+        <view class="pic"><image src="../img/collect.png" /></view>
+        <view class="text">收藏</view>
+      </view>
+      <view class="bottom-bar-item read">
+        <button type="primary">阅读</button>
+      </view>
+      <view class="bottom-bar-item comment">
+        <view class="pic"><image src="../img/news.png" /></view>
+        <view class="text">10</view>
+      </view>
+      <view class="bottom-bar-item chapter">
+        <view class="pic"><image src="../img/list.png" /></view>
+        <view class="text">章节</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<template name="navList">
+  <view class="header">
+    <view class="list">
+      <swiper class="v-swiper" circular="true"
+      bindchange="listenSwiper">
+        <swiper-item class="s-item">热门</swiper-item>
+        <swiper-item class="s-item">新番</swiper-item>
+        <swiper-item class="s-item">悬疑</swiper-item>
+        <swiper-item class="s-item">情感</swiper-item>
+        <swiper-item class="s-item">惊悚</swiper-item>
+        <swiper-item class="s-item">趣乐</swiper-item>
+      </swiper>
+    </view>
+    <view class="search">
+      <icon type="search" size="25" bindtap="searching"/>
+    </view>
+  </view>
+</template>

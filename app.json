@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/hot/hot",
+    "pages/index/index",
+    "pages/details/details",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "乐读",
+    "navigationBarTextStyle":"light",
+    "enablePullDownRefresh": false
+  }
+}

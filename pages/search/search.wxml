@@ -1,0 +1,9 @@
+<view class="page_search">
+  <view class="search_hd">
+    <input type="text" placeholder="请输入您要搜索的故事标题" 
+    auto-focus/>
+    取消
+    <icon type="search" size="25" bindtap="searching"/>
+  </view>
+  <view class="search_bd"></view>
+</view>
